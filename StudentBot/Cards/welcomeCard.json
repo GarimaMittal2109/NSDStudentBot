@@ -1,0 +1,74 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.1",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Welcome to Northshore School District"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "https://resources.finalsite.net/images/f_auto,q_auto/v1528387501/nsdorg/kdxnak31di5fn1o4hwbq/kokanee-elementary.png",
+              "size": "Small"
+            }
+          ],
+          "width": "auto"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": "KoKanee Elementry school",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Bothell, WA",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "Welcome to Kokanee elementery student bot! I can help with you student profile, view homework and student grades.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview",
+      "url": "https://kokanee.nsd.org/"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "School Calender",
+      "url": "https://kokanee.nsd.org/our-school-ko/calendar-ko"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contact",
+      "url": "https://kokanee.nsd.org/connect-ko"
+    }
+  ]
+}
